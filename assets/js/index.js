@@ -9,7 +9,7 @@
 		var facebookUrl = 'https://www.facebook.com/sharer/sharer.php?u={url}'.replace('{url}',window.location);
 		var googleUrl = 'https://plus.google.com/share?url={url}'.replace('{url}',window.location);
 
-		$('a.icon-twitter').attr('href',twitterUrl);
+		$('a.icon-twitter').attr('https://twitter.com/mark_koslow',twitterUrl);
 		$('a.icon-facebook').attr('href',facebookUrl);
 		$('a.icon-google-plus').attr('href',googleUrl);
 
