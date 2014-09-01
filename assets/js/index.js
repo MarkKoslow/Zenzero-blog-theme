@@ -5,12 +5,11 @@
 	* Dynamically set the url to share
 	*/
 	function setShareUrl(){
-		var twitterUrl = 'https://twitter.com/mark_koslow';
-		//'http://twitter.com/share?text={title}&url={url}'.replace('{url}',window.location).replace('{title}',encodeURIComponent(document.title).replace(/%20/g,'+'));
+		var twitterUrl = 'http://twitter.com/share?text={title}&url={url}'.replace('{url}',window.location).replace('{title}',encodeURIComponent(document.title).replace(/%20/g,'+'));
 		var facebookUrl = 'https://www.facebook.com/sharer/sharer.php?u={url}'.replace('{url}',window.location);
 		var googleUrl = 'https://plus.google.com/share?url={url}'.replace('{url}',window.location);
 
-		$('a.icon-twitter').attr('href',twitterUrl);
+		$('a.icon-twitter').attr('href','https://twitter.com/mark_koslow');
 		$('a.icon-facebook').attr('href',facebookUrl);
 		$('a.icon-google-plus').attr('href',googleUrl);
 
