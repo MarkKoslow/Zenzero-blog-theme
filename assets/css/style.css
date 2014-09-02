@@ -442,7 +442,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .blog-description {
     margin: 0;
-    font-size: 4.15rem;
+    font-size: 3.65rem;
     line-height: 1.3em;
     font-weight: 300;
     letter-spacing: -1px;
@@ -450,7 +450,7 @@ margin on the iframe, cause it breaks stuff. */
     color:#9c8f9a;
     padding-bottom:10px;
     display:inline-flex;
-    opacity:.7;
+    opacity:.9;
 } 
 
 .blog-social{
